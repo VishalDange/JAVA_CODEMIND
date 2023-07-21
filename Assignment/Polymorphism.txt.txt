@@ -1,0 +1,51 @@
+1)List down some of java method’s where method overloading is used.
+Ans: 1)The Math class also has a number of methods that are overloaded, such as the pow() method, which can be used to calculate the power of a number.
+     2)The Scanner class has a number of methods that are overloaded, such as the next() method, which can be used to read the next token from the input stream.
+
+2)Overload method by changing data type of argument and keeping same number of argument. 
+Ans: 
+  public class Addition{
+
+    public static void main(String[] args) 
+{
+        int a = 10;
+        int b = 20;
+
+        add(a, b);
+        add(10.0, 20.0);
+    }
+
+    static void add(int a, int b) {
+        System.out.println("The sum of a and b is " + (a + b));
+    }
+
+    static void add(double a, double b) {
+        System.out.println("The sum of a and b is " + (a + b));
+    }
+}
+
+3)Calculate area of Circle, Triangle, Rectangle using method overloading.
+Ans: 
+ class Area
+{
+public int calculateArea(double rad)
+{
+	return 3.14 * rad * rad;
+}
+public int calculateArea(double base, double height)
+{
+       	return 0.5 * base * height;
+}
+public int calculateArea(double length, double width) 
+{
+       	return length * width;
+}
+}
+
+4) What is the advantage of method overloading?
+Ans:
+    1)Improves readability and flexibility of code.
+    2)Reduces code duplication.
+    3)Allows you to use the same method name for different purposes
+    4)Allows you to use the same method name for different classes
+    5)Allows you to use the same method name for methods with different return types. 
