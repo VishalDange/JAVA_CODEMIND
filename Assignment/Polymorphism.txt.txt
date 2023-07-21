@@ -1,6 +1,8 @@
 1)List down some of java method’s where method overloading is used.
-Ans: 1)The Math class also has a number of methods that are overloaded, such as the pow() method, which can be used to calculate the power of a number.
+Ans: 1)The Math class has a number of methods that are overloaded, such as the pow() method, which can be used to calculate the power of a number.
      2)The Scanner class has a number of methods that are overloaded, such as the next() method, which can be used to read the next token from the input stream.
+     3)The String class has a number of methods that are overloaded, such as the indexOf() method, which can be used to find the index of a character or substring 
+       in a string.
 
 2)Overload method by changing data type of argument and keeping same number of argument. 
 Ans: 
