@@ -1,0 +1,46 @@
+ASSIGNMENT- INTERFACE
+1) The code showing compile time error because:
+             When we inherit an interface in Java, the methods in the interface are declared as public in the child class. This is because interfaces are abstract by definition, and 
+abstract methods must be public.
+If the methods in the interface were not declared as public, then the child class would not be able to override them. This is because abstract methods are not implemented in the interface,
+ and the child class must provide its own implementation of the methods in order to be concrete. So in above code the method must be public.
+
+
+2) The code will not compile successfully because:
+                  Variables declared in an interface are by default public, static, and final. They are accessible to all classes that implement the interface, and they cannot be changed.
+ If you try to declare a variable in a child class that has the same name as a variable in the interface, the compiler will give you an error. This is because the child class cannot 
+override the variable in the interface.
+
+
+3) The Following code is not written correctly because:
+               In Java A class can implement any number of interfaces, but an interface cannot extend a class. If we try to extend an interface to a class, the compiler will give you 
+an error. In this example, the interface B is trying to extend the class A. The compiler will give us an error because an interface cannot extend a class.
+
+
+4)The output of the given program is:
+        QQQQPPPP 
+        PPPPQQQQ
+
+
+5) The output of the following program is 4.
+
+
+6) What is an interface in Java?
+Ans: The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in the Java interface, not method body. It is used to achieve abstraction and 
+multiple inheritance in Java.
+
+
+7)Which modifiers are allowed for methods in an Interface?
+Ans: In Java 7, only the public and abstract modifiers are allowed for methods in an interface. In Java 8, we can have default and static methods in an interface. In Java 9, we can 
+have private methods in an interface.
+
+
+8)Suppose A is an interface. Can we create an object using new A()?
+Ans:  No, we cannot create an object of an interface using the new A() keyword. In Java, an interface is a reference type that defines a set of methods that a class must implement. 
+An interface cannot be instantiated.
+
+9)Can an interface extends another interface in Java?
+Ans: Yes, an interface can extend another interface in Java. This is done using the extends keyword.  
+
+   
+
