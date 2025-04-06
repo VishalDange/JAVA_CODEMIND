@@ -15,6 +15,8 @@ public class EvenOdd
 	            numbers[i] = scanner.nextInt();
 	        }
 
+
+
 	        int sumOfEvenNumbers = 0;
 	        int sumOfOddNumbers = 0;
 
