@@ -6,7 +6,11 @@ public class condition
           System.out.println("IF-ELSE: ");
     	  int a = 10;       
           if (a % 2 == 0)     
-          {           
+          {
+
+
+
+
               System.out.println(a + " is an even number");       
           }       
           else     
